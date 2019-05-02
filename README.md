@@ -13,6 +13,8 @@ To perform the setup required to grant Alert Logic permission to access Events H
 * A Microsoft Azure account with administrative privileges
 * An Alert Logic user account with administrative privileges
 
+The Alert Logic Event Collector is installed in the same Azure subscription as the Event Hub that is collects from.
+
 ## Security Permissions for the Collector application
 
 A collector function application uses [Managed Service Identity](https://docs.microsoft.com/en-us/azure/app-service/overview-managed-identity) feature for assigning and managing permissions granted to the application.
